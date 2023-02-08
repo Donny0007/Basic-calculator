@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="bc.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="jumbotron" >
+        <h2 class="jumbotron text-center">Basic Calculator</h2>
+        <form name="form1" class="form-group text-center">
+            <div class="row">
+                <input type="text" id="calc" name="calc" class="form-control col-sm-4"
+                height='20'><br>
+            </div>
+            <div class="row">
+                <input type="button" value='1' class="btn btn-lg col-sm-3" onclick = "form1.calc.value += '1'">
+                <input type="button" value='2' class="btn btn-lg col-sm-3" onclick = "form1.calc.value += '2'">
+                <input type="button" value='3' class="btn btn-lg col-sm-3" onclick = "form1.calc.value += '3'">
+                <input type="button" value='+' class="btn btn-lg btn-success col-sm-3" onclick = "form1.calc.value += '+'">
+            </div>
+            <div class="row">
+                <input type="button" value='4' class="btn btn-lg col-sm-3" onclick = "form1.calc.value += '4'">
+                <input type="button" value='5' class="btn btn-lg col-sm-3" onclick = "form1.calc.value += '5'">
+                <input type="button" value='6' class="btn btn-lg col-sm-3" onclick = "form1.calc.value += '6'">
+                <input type="button" value='-' class="btn btn-lg col-sm-3 btn-warning" onclick = "form1.calc.value += '-'">
+            </div>
+            <div class="row">
+                <input type="button" value='7' class="btn btn-lg col-sm-3" onclick = "form1.calc.value += '7'">
+                <input type="button" value='8' class="btn btn-lg col-sm-3" onclick = "form1.calc.value += '8'">
+                <input type="button" value='9' class="btn btn-lg col-sm-3" onclick = "form1.calc.value += '9'">
+                <input type="button" value='*' class="btn btn-lg col-sm-3 btn-info" onclick = "form1.calc.value += '*'">
+            </div>
+            <div class="row">
+                <input type="button" value='.' class="btn btn-lg col-sm-3" onclick = "form1.calc.value += '.'">
+                <input type="button" value='0' class="btn btn-lg col-sm-3" onclick = "form1.calc.value += '0'">
+                <input type="button" value="AC" class="btn btn-lg col-sm-3 btn-danger" onclick="form1.calc.value=''">
+                <input type="button" value='/' class="btn btn-lg col-sm-3 btn-primary" onclick = "form1.calc.value += '/'">
+                </div>
+            <div class="row">
+                <input type="button" value='=' class="btn btn-lg col-sm-9" onclick = "form1.calc.value = eval(form1.calc.value)">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

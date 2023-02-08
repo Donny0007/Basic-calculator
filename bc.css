@@ -1,0 +1,46 @@
+div .row {
+  background-color: aliceblue;
+  margin: auto;
+  margin-top: 5px;
+  width: 80%;
+  border: none;
+}
+
+div {
+  border: none;
+  margin: auto;
+  width: 40%;
+}
+
+input[type=button] {
+  border-radius: 5%;
+  border: none;
+}
+
+input[type=button]:hover {
+  background-color: darkgrey;
+  color: ghostwhite;
+  border: none;
+}
+
+div h2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+input[type=text] {
+  color: black;
+  font-style: oblique;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: large;
+  background-color: red;
+}
+
+input[class=""] {
+  color: black;
+}
+
+div[class=jumbotron] {
+  background-color: darkslategrey;
+}
+
+/*# sourceMappingURL=bc.css.map */
